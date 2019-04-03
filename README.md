@@ -44,11 +44,12 @@
 
 ### Few honourable mentions 
 
-Please use lodash and immutable.js. There are good functionalities provided by lodash, for ex to checking the values of objects when the chain is too long. we are using endless && operator which hampers the readability, instead we can use lodash or write our own lib. 
-please use  eslint-plugin-react 
-Code splitting(resource splitting and on demand code splitting)
-CommonsChunkPlugin→  you can extract common code (such as all external libraries) into a “chunk” file of its own. 
-Using ExtractTextWebpackPlugin, you can extract all CSS code into a separate CSS file.
+1. Please use lodash and immutable.js. There are good functionalities provided by lodash, for ex to checking the values of objects when the chain is too long. we are using endless && operator which hampers the readability, instead we can use lodash or write our own lib. 
+
+2. please use  eslint-plugin-react 
+3. Code splitting(resource splitting and on demand code splitting)
+4. CommonsChunkPlugin→  you can extract common code (such as all external libraries) into a “chunk” file of its own. 
+5. Using ExtractTextWebpackPlugin, you can extract all CSS code into a separate CSS file.
 This kind of splitting will help in two ways. It helps the browser to cache those less frequently changing resources. It will also help the browser to take advantage of parallel downloading to potentially reduce the load time.
 
 Our code should be our documentation. :)
